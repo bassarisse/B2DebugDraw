@@ -16,4 +16,4 @@ Make sure to give it highest z-order.
 
 #### Compatibility
 
-Tested with cocos2d-x 2.0.2 using XCode 4.4
+Tested with cocos2d-x 2.1.2 using XCode 4.4

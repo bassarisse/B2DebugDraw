@@ -35,7 +35,7 @@ bool B2DebugDrawLayer::init()
   //////////////////////////////
   // 1. super init first
 
-  if(!CCLayer::init())
+  if(!Layer::init())
   {
     return false;
   }
@@ -57,7 +57,7 @@ bool B2DebugDrawLayer::init()
 
 void B2DebugDrawLayer::draw()
 {
-  ccGLEnableVertexAttribs( kCCVertexAttribFlag_Position );
+  ccGLEnableVertexAttribs( kVertexAttribFlag_Position );
   
   kmGLPushMatrix();
   
